@@ -1,0 +1,87 @@
+# Archivos binarios y de objetos
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Archivos de salida de la compilación
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.pyc
+*.pyo
+
+# Archivos de paquetes
+*.nupkg
+# Las carpetas "packages" pueden contener las restauraciones de NuGet
+**/[Pp]ackages/*
+# Excepto repositorio de configuración de paquetes, porque los archivos necesitan ser rastreados
+!**/[Pp]ackages/repositories.config
+
+# Archivos de ReSharper
+_ReSharper.*/
+*.[Rr]e[Ss]harper
+
+# Archivos de Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Archivos de respaldo creados por Visual Studio
+*.[Bb]ackup
+*.[Tt]mp
+
+# Archivos de configuración de cobertura de código
+*.coveragexml
+
+# Carpeta de caché para proyectos .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de almacenamiento local para el IDE
+.vscode/
+
+# Carpeta de publicación
+/publish/
+
+# Archivos de configuración específicos del usuario
+*.rsuser
+
+# Archivos y carpetas generados por Rider
+.idea/
+*.sln.iml
+
+# Carpeta node_modules si estás usando TypeScript en el frontend con Node.js
+node_modules/
+
+# Carpetas generadas por herramientas de análisis estático
+.analyzer/
+
+# Archivos de configuración de Docker
+Dockerfile.*
+docker-compose.*
+
+# Archivos específicos de MacOS
+.DS_Store
