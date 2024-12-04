@@ -56,7 +56,7 @@ namespace day1
                 }
                 result += finalPuzzleListPair[i] * pairNumberCount;
             }
-            //Jeje resuelto: 
+            //Jeje resuelto: 23384288
             Console.WriteLine(result);
 
 
